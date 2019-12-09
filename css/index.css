@@ -1,0 +1,95 @@
+.container-1 {
+  display: flex;
+  flex-flow: row; }
+  .container-1 .boxB {
+    position: relative;
+    width: 65.5%;
+    background-image: url("../img/Layer8@1X.png");
+    filter: sepia(40%);
+    background-size: 100% 100%;
+    margin-right: 2rem; }
+    .container-1 .boxB .text {
+      width: 60%;
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+      .container-1 .boxB .text h6 {
+        color: #e2e2e2; }
+  .container-1 .boxS {
+    width: 31.7%; }
+
+.container-2 {
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: row; }
+  .container-2 .boxS:nth-child(2) {
+    margin: 0 2rem; }
+    .container-2 .boxS:nth-child(2) .text h6 {
+      padding: 7%; }
+
+.text {
+  margin: 5%;
+  text-transform: uppercase; }
+  .text h1 {
+    margin: 3% 0;
+    font-weight: bold;
+    font-size: 3.3rem;
+    color: white;
+    text-align: left; }
+  .text h2 {
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: #1d1d1d;
+    text-align: left; }
+  .text h6 {
+    padding: 5% 0;
+    color: #818181;
+    text-align: left; }
+  .text .ava {
+    position: absolute;
+    bottom: 5%;
+    left: 5%; }
+
+.boxS {
+  width: 31.7%;
+  position: relative;
+  height: 54rem;
+  display: flex;
+  flex-flow: column;
+  background-color: white; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  position: relative;
+  background-color: #e2e7ec;
+  padding: 5.5% 15% 13% 15%;
+  font-family: HansKendrick-Regular;
+  font-size: 1.9rem; }
+
+.load {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content: center; }
+  .load img {
+    padding: 5%; }
+  .load h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #99a5b0;
+    padding: 7% 0% 5% 5%; }
+
+@font-face {
+  font-family: HansKendrick-Regular;
+  src: url("./fonts/HansKendrick-Regular/HansKendrick-Regular.otf"); }

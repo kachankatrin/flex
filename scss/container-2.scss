@@ -1,0 +1,17 @@
+.container-2 {
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: row;
+  .boxS {
+     
+    &:nth-child(2){
+      margin: 0 2rem;
+      .text {
+        h6 {
+          padding: 7%;
+        }
+      }
+    }
+
+  }
+}

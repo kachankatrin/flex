@@ -1,0 +1,49 @@
+@import 'container-1.scss';
+@import 'container-2.scss';
+@import 'utils.scss';
+
+*{ 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  position: relative;
+  background-color: rgb(226, 231, 236);
+  padding: 5.5% 15% 13% 15%;
+  font-family: HansKendrick-Regular;
+  font-size: 1.9rem;
+}
+
+.load {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content: center;
+  img {
+    padding: 5%;
+  }
+  h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(153, 165, 176, 255);
+    padding: 7% 0% 5% 5%;
+  }
+}
+
+
+
+
+@font-face {
+  font-family: HansKendrick-Regular;
+  src: url("./fonts/HansKendrick-Regular/HansKendrick-Regular.otf");
+}
